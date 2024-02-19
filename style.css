@@ -1,0 +1,120 @@
+/*google font popins*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+           
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f4f4f4;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: burlywood;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(red, green, rgb(192, 192, 237), alpha);
+}
+
+.image
+{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color:rgb(169, 169, 240);
+}
+
+.image .profile-img
+{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 15px solid white;
+    margin-bottom: 10px;
+}
+
+.profile-card .text-data
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: brown;
+}
+
+.text-data .name
+{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-data .names
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.profile-card .media-buttons
+{
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+   
+
+}
+
+.media-buttons .link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    height: 34px;
+    width: 34px;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.profile-card .buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.buttons .button{
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 24px;
+        padding:  8px 24px;
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.buttons .button:hover{
+    background-color: red;
+}
